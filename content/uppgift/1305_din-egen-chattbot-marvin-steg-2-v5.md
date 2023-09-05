@@ -138,7 +138,7 @@ elif choice == "1":
 
     Som du läst finns det funktionalitet som är samma mellan menyval 7 och 9. Därför ska du skapa en ny funktion som används i koden för menyval 7 och 9. Skapa `create_ssn` som tar emot födelsedatumet och skapar tre siffror. Skapa sen `calculate_luhna_sum` som tar emot en sträng med födelsedatumet och de tre siffrorna, utan `-`, `"811218987"`. Funktionen ska räkna ut summan och returnera den, `44`. I `create_ssn` använd summan och räkna ut sist siffran och returnera hela personnummret, med `-`, `811218-9876`.
 
-    Uppdatera sen koden för menyval 7 så att du använder `calculate_luhna_sum` i den koden också, för att räkna ut summan som ska kollas om den är delbar med 10. Koll om talet är delbart med 10 i menyval 7 funktionen, inte i `calculate_luhna_sum`. Genom att återanvända funktioner på flera ställen kan vi få mer [DYR kod](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+    Uppdatera sen koden för menyval 7 så att du använder `calculate_luhna_sum` i den koden också, för att räkna ut summan som ska kollas om den är delbar med 10. Koll om talet är delbart med 10 i menyval 7 funktionen, inte i `calculate_luhna_sum`. Genom att återanvända funktioner på flera ställen kan vi få mer [DRY kod](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
  Exempel:
 
